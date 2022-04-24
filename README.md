@@ -52,5 +52,5 @@ No, there is no positivity bias in the Vine program, based on the results.
 ## Additional Analysis
 
 Following additional analysis can be performed on the data:
-- compare all the reviews (0 to 5 stars) across paid for and unpaid.
+- Compare all the reviews (0 to 5 stars) across paid for and unpaid.
 - Calculate and compare the average star rating for Vine and non-Vine reviews.
