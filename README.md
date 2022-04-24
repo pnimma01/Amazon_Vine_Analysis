@@ -8,23 +8,23 @@ The Amazon Vine program is a service that allows manufacturers and publishers to
 Use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Then use PySpark and Pandas to determine if there is any bias toward favorable reviews from Vine members in the dataset.
 
 ### Deliverable 1: Perform ETL on Amazon Product Reviews:
-View the ETL Process in a Google Colaboraty Notebook Here
+View the ETL Process in a Google Colaboraty Notebook [here](https://github.com/pnimma01/Amazon_Vine_Analysis/blob/c71df21e34617c73add139a799fa1b61af4bc87a/Amazon_Reviews_ETL.ipynb)
 
 ### Deliverable 2: Determine Bias of Vine Reviews
-View the Vine Reviews Bias Analysis Here
+View the Vine Reviews Bias Analysis [here](https://github.com/pnimma01/Amazon_Vine_Analysis/blob/c71df21e34617c73add139a799fa1b61af4bc87a/Vine_Review_Analysis.ipynb)
 
 ## Results
 
 How many Vine reviews and non-Vine reviews were there?
 
-![vine vs non-vine] (https://github.com/pnimma01/Amazon_Vine_Analysis/blob/f1ac17ee13ae24c780c8a12772d0e3c5128058b2/Resources/D2/D2_Review_Counts.png)
+![vine vs non-vine](https://github.com/pnimma01/Amazon_Vine_Analysis/blob/f1ac17ee13ae24c780c8a12772d0e3c5128058b2/Resources/D2/D2_Review_Counts.png)
 
 1,266 Vine Reviews
 62,004 Non_Vine Reviews
 
 How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 
-![5 star vine_non_vine] (https://github.com/pnimma01/Amazon_Vine_Analysis/blob/f1ac17ee13ae24c780c8a12772d0e3c5128058b2/Resources/D2/D2_5_Star_Reviews.png)
+![5 star vine_non_vine](https://github.com/pnimma01/Amazon_Vine_Analysis/blob/f1ac17ee13ae24c780c8a12772d0e3c5128058b2/Resources/D2/D2_5_Star_Reviews.png)
 
 432 Vine Reviews were 5 Stars
 29,965 Non_Vine Reviews were 5 Stars
@@ -32,7 +32,7 @@ How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 
 What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
-![5 star Percent] (https://github.com/pnimma01/Amazon_Vine_Analysis/blob/f1ac17ee13ae24c780c8a12772d0e3c5128058b2/Resources/D2/Percent_5_Star.png)
+![5 star Percent](https://github.com/pnimma01/Amazon_Vine_Analysis/blob/f1ac17ee13ae24c780c8a12772d0e3c5128058b2/Resources/D2/Percent_5_Star.png)
 
 34.12% of Vinew Reviews were 5 Stars.
 48.32% of Non-Vine Reviews were 5 Stars.
